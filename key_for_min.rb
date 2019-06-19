@@ -10,6 +10,7 @@ def key_for_min_value(name_hash)
       lowest_value = value
       lowest_key = key
     else 
+      return nil
     end
   end
   return lowest_key
